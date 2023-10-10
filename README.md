@@ -6,6 +6,16 @@ Technologies:
 - Vue.js 3 (Frontend)
 - php v-7.4.30
 
+  Project Description
+- Implement user registration and login functionality using Laravel's built-in authentication.
+-  dashboard where users can:
+      - View a list of tasks.
+      - Add new tasks with a description and unique title .
+      - Mark tasks as completed.
+      - Delete tasks.
+      - Implement validation .
+
+
 Login Page
 ![Capture d'écran 2023-10-10 135427](https://github.com/kaouanine/TasksApp/assets/97893374/1e97021b-580d-4d02-9df2-813832a8dc39)
 
@@ -23,26 +33,38 @@ Home Page
 ![Capture d'écran 2023-10-10 140502](https://github.com/kaouanine/TasksApp/assets/97893374/b319f6d4-b081-48e3-8ffa-3fbdf56a0295)
 
 
-The project has been scaffolded using Laravel sails
-
+-Backend Setup 
 Clone the project
 
-- git clone https://github.com/denisakp/SquaHR_url_shortener.git
+      git clone https://github.com/kaouanine/TasksApp.git
 
-      cd SquaHR_url_shortener
+      cd TasksApp/Backend
 
 Install composer dependencies
 
-    composer install
+      composer install
 
 Create e .env file and update its content if needed
 
-    cp .env.example .env
+     cp .env.example .env
 
 Run migrations
   
-    php artisan migrate
+     php artisan migrate
     
 Start Laravel server
 
-    php artisan serve
+     php artisan serve
+
+-Frontend Setup
+
+      cd TasksApp/Frontend
+
+Install Npm dependencies
+
+      npm i
+      
+Start server
+
+      npm run dev
+      
