@@ -27,23 +27,22 @@ The project has been scaffolded using Laravel sails
 
 Clone the project
 
-git clone https://github.com/denisakp/SquaHR_url_shortener.git
-cd SquaHR_url_shortener
+- git clone https://github.com/denisakp/SquaHR_url_shortener.git
+
+      cd SquaHR_url_shortener
+
 Install composer dependencies
 
-composer install
-Install Npm dependencies
+    composer install
 
-npm i
 Create e .env file and update its content if needed
 
-cp .env.example .env
-Generate Laravel APP Key
+    cp .env.example .env
 
-php artisan key:generate --ansi
 Run migrations
-
-php artisan migrate
+  
+    php artisan migrate
+    
 Start Laravel server
 
-php artisan serve
+    php artisan serve
