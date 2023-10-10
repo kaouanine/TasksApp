@@ -21,3 +21,29 @@ Home Page
 
 
 ![Capture d'écran 2023-10-10 140502](https://github.com/kaouanine/TasksApp/assets/97893374/b319f6d4-b081-48e3-8ffa-3fbdf56a0295)
+
+
+The project has been scaffolded using Laravel sails
+
+Clone the project
+
+git clone https://github.com/denisakp/SquaHR_url_shortener.git
+cd SquaHR_url_shortener
+Install composer dependencies
+
+composer install
+Install Npm dependencies
+
+npm i
+Create e .env file and update its content if needed
+
+cp .env.example .env
+Generate Laravel APP Key
+
+php artisan key:generate --ansi
+Run migrations
+
+php artisan migrate
+Start Laravel server
+
+php artisan serve
