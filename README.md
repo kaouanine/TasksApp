@@ -5,6 +5,7 @@ Technologies:
 - Laravel 8  (Backend)  
 - Vue.js 3 (Frontend)
 - php v-7.4.30
+- Mysql
 
   Project Description
 - Implement user registration and login functionality using Laravel's built-in authentication.
@@ -34,6 +35,7 @@ Home Page
 
 
 -Backend Setup 
+
 Clone the project
 
       git clone https://github.com/kaouanine/TasksApp.git
